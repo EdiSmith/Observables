@@ -1,0 +1,11 @@
+<label for="">Add Produto</label>
+<input
+  type="text"
+  [(ngModel)]="inputProduto"
+  (keyup.enter)="adicionarProduto()">
+
+  <div>
+    <app-carrinho></app-carrinho>
+  </div>
+
+<router-outlet />
